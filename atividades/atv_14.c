@@ -10,4 +10,5 @@ int main(){
     strcpy(caixa_dialogo, frase_inicio_luta);
     printf("%s", frase_inicio_luta);
 
+    return 0;
 }
