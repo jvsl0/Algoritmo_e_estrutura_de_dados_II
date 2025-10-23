@@ -22,5 +22,5 @@ int main(){
 
     printf("Pena Dourada coletada! Altura do Salto Duplo: %.2f\n", *ponteiro_altura_salto_duplo);
 
-
+    return 0; 
 }
