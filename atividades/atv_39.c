@@ -24,13 +24,6 @@ int main() {
     arquivo = fopen("inimigos.txt", "r");
 
     
-    if (arquivo == NULL) {
-        perror("ERRO: Falha ao abrir o arquivo inimigos.txt");
-        printf("Certifique-se de que o arquivo esta no diretorio correto.\n");
-        return 1;
-    }
-
-    
     printf("Lendo e calculando Nivel de Ameaca...\n");
     
     
