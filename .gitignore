@@ -53,3 +53,11 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+**.txt
+!inimigos.txt
+!wave_data.txt
+
+**.sav
+**.bin
+**.dat
