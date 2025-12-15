@@ -14,13 +14,13 @@ int main(){
         return 1;
     }
 
-    free(ponteiro_altura_salto_duplo);//Em um jogo real, esta linha seria usada para liberar a memória 
-                                      //(e o *power-up* desativado) quando ele não fosse mais necessário,
-                                      // evitando vazamento de memória (memory leak).
-
     *ponteiro_altura_salto_duplo = 15.5;
 
     printf("Pena Dourada coletada! Altura do Salto Duplo: %.2f\n", *ponteiro_altura_salto_duplo);
+
+    free(ponteiro_altura_salto_duplo);//Em um jogo real, esta linha seria usada para liberar a memória 
+                                      //(e o *power-up* desativado) quando ele não fosse mais necessário,
+                                      // evitando vazamento de memória (memory leak).
 
     return 0; 
 }
